@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DynamicList",
+            "request": "launch",
+            "mainClass": "com.example.collections.custom.DynamicList",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "EmpList",
             "request": "launch",
             "mainClass": "com.example.collections.custom.EmpList",
