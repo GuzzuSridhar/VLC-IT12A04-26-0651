@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleAssert",
+            "request": "launch",
+            "mainClass": "com.example.assertions.SimpleAssert",
+            "projectName": "javaintermediate",
+            "vmArgs": "-ea"
+        },
+        {
+            "type": "java",
             "name": "ThrowsDemo",
             "request": "launch",
             "mainClass": "com.example.exceptions.throwsdemo.ThrowsDemo",
