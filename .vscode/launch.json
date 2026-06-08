@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashSetDemo",
+            "request": "launch",
+            "mainClass": "com.example.collections.HashSetDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "ArrayListDemo",
             "request": "launch",
             "mainClass": "com.example.collections.ArrayListDemo",
