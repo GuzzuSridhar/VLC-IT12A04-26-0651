@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UseCustomException",
+            "request": "launch",
+            "mainClass": "com.example.exceptions.custom.UseCustomException",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "MultipleExceptions",
             "request": "launch",
             "mainClass": "com.example.exceptions.MultipleExceptions",
