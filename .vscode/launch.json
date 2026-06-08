@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThrowsDemo",
+            "request": "launch",
+            "mainClass": "com.example.exceptions.throwsdemo.ThrowsDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "UseCustomException",
             "request": "launch",
             "mainClass": "com.example.exceptions.custom.UseCustomException",
