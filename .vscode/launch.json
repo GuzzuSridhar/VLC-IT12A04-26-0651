@@ -6,11 +6,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "com.example.collections.ArrayListDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "MultipleAsserts",
             "request": "launch",
             "mainClass": "com.example.assertions.MultipleAsserts",
             "projectName": "javaintermediate",
-              "vmArgs": "-ea"
+            "vmArgs": "-ea"
         },
         {
             "type": "java",
