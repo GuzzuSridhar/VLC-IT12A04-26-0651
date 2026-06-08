@@ -16,7 +16,8 @@ public class MultipleExceptions {
             j = scan.nextInt();
             res = divide(i, j);
             System.out.println(res);
-        } catch (ArithmeticException | InputMismatchException e) { // multi catch
+        } catch (ArithmeticException | InputMismatchException e) { // multi catch java ver 7+
+            System.out.println(e.toString());
             // catch (ArithmeticException r) {
             // System.out.println(r.getMessage());
             // } catch (InputMismatchException e) {
