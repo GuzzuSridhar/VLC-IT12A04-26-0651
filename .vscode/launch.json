@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DequeDemo",
+            "request": "launch",
+            "mainClass": "com.example.collections.DequeDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "HashMapDemo",
+            "request": "launch",
+            "mainClass": "com.example.collections.HashMapDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "HashSetDemo",
             "request": "launch",
             "mainClass": "com.example.collections.HashSetDemo",
