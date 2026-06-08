@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmpList",
+            "request": "launch",
+            "mainClass": "com.example.collections.custom.EmpList",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "DequeDemo",
             "request": "launch",
             "mainClass": "com.example.collections.DequeDemo",
