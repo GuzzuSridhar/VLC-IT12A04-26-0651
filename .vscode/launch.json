@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmpList",
+            "request": "launch",
+            "mainClass": "com.example.fileio.EmpList",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "ListFiles",
             "request": "launch",
             "mainClass": "com.example.fileio.ListFiles",
