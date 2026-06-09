@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultipleParams",
+            "request": "launch",
+            "mainClass": "com.example.generics.methods.MultipleParams",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethod",
+            "request": "launch",
+            "mainClass": "com.example.generics.methods.GenericMethod",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "IteratorDemo",
             "request": "launch",
             "mainClass": "com.example.collections.IteratorDemo",
