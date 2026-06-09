@@ -5,7 +5,9 @@ import java.io.IOException;
 
 public class CreateFile {
     public static void main(String[] args) {
-        File file = new File("myfile.txt");
+
+        File file = new File("d:\\myfile.txt"); // absolute path
+        // File file = new File("myfile.txt");
 
         try {
             if (file.createNewFile())
