@@ -1,4 +1,4 @@
-package com.example.generics.classes.interfaces.builtin;
+package com.example.generics.interfaces.builtin;
 
 public class Employee {
     private int id;

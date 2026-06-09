@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConsumerDemo",
+            "request": "launch",
+            "mainClass": "com.example.generics.classes.interfaces.builtin.ConsumerDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "SupplierDemo",
+            "request": "launch",
+            "mainClass": "com.example.generics.classes.interfaces.builtin.SupplierDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "PredicateDemo",
             "request": "launch",
             "mainClass": "com.example.generics.classes.interfaces.builtin.PredicateDemo",
