@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoveFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.MoveFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "RenameFile",
             "request": "launch",
             "mainClass": "com.example.fileio.RenameFile",
