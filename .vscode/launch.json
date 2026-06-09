@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamIntOps",
+            "request": "launch",
+            "mainClass": "com.example.collections.streams.StreamIntOps",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "StreamTerminalOps",
             "request": "launch",
             "mainClass": "com.example.collections.streams.StreamTerminalOps",

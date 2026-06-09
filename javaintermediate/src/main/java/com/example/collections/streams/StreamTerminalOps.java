@@ -1,6 +1,7 @@
 package com.example.collections.streams;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class StreamTerminalOps {
@@ -28,6 +29,25 @@ public class StreamTerminalOps {
         System.out.println("collect-------------");
         List<String> temp = strList.stream().filter(s -> s.startsWith("T")).collect(Collectors.toList());
         System.out.println(temp);
+
+        System.out.println("count-------------");
+        long c = strList.stream().filter(s -> s.startsWith("T")).count();
+        System.out.println(c);
+
+        System.out.println("max-------------");
+        Optional<Integer> m = intList.stream().max((i, j) -> i.compareTo(j));
+        System.out.println(m.get());
+
+        System.out.println("min-------------");
+        Optional<Integer> mi = intList.stream().min((i, j) -> i.compareTo(j));
+        System.out.println(mi.get());
+
+        System.out.println("reduce-------------");
+        int sum = intList.stream().reduce(0, Integer::sum);
+        System.out.println(sum);
+
+        int prod = intList.stream().reduce(1, (x, y) -> x * y);
+        System.out.println(prod);
 
     }
 }
