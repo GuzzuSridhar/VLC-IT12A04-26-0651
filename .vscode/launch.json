@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IteratorDemo",
+            "request": "launch",
+            "mainClass": "com.example.collections.IteratorDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "DynamicList",
             "request": "launch",
             "mainClass": "com.example.collections.custom.DynamicList",
