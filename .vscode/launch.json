@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReadFromFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.ReadFromFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "BufferedWriterDemo",
             "request": "launch",
             "mainClass": "com.example.fileio.BufferedWriterDemo",
