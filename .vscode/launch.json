@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ListFiles",
+            "request": "launch",
+            "mainClass": "com.example.fileio.ListFiles",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "CreateDirectory",
+            "request": "launch",
+            "mainClass": "com.example.fileio.CreateDirectory",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "DeleteFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.DeleteFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "MoveFile",
             "request": "launch",
             "mainClass": "com.example.fileio.MoveFile",

@@ -1,2 +1,0 @@
-Any text here... Buffered writer is economical on the number of IO operations
-Any text here... Buffered writer is economical on the number of IO operations
