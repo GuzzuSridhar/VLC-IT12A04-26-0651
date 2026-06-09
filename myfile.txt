@@ -1,4 +1,2 @@
-Hello WorldWritten using Java ioHello WorldWritten using Java ioHello WorldWritten using Java ioHello World 
-Written using Java ioHello World 
-Written using Java ioHello World 
-Written using Java io
+Any text here... Buffered writer is economical on the number of IO operations
+Any text here... Buffered writer is economical on the number of IO operations

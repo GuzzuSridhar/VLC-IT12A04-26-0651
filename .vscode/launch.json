@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BufferedWriterDemo",
+            "request": "launch",
+            "mainClass": "com.example.fileio.BufferedWriterDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "AppendFile",
             "request": "launch",
             "mainClass": "com.example.fileio.AppendFile",
