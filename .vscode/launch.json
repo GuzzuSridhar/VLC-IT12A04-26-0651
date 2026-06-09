@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CreateFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.CreateFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "GetCurrentDirectory",
+            "request": "launch",
+            "mainClass": "com.example.fileio.GetCurrentDirectory",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "StreamIntOps",
             "request": "launch",
             "mainClass": "com.example.collections.streams.StreamIntOps",
