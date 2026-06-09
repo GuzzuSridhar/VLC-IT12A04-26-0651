@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GenericMulti",
+            "request": "launch",
+            "mainClass": "com.example.generics.classes.GenericMulti",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "MultipleParams",
             "request": "launch",
             "mainClass": "com.example.generics.methods.MultipleParams",
