@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamTerminalOps",
+            "request": "launch",
+            "mainClass": "com.example.collections.streams.StreamTerminalOps",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "CastDriver",
             "request": "launch",
             "mainClass": "com.example.generics.interfaces.custom.CastDriver",
