@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppendFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.AppendFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "WriteToFile",
+            "request": "launch",
+            "mainClass": "com.example.fileio.WriteToFile",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "CreateFile",
             "request": "launch",
             "mainClass": "com.example.fileio.CreateFile",
