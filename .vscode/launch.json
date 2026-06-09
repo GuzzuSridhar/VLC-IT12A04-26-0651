@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PredicateDemo",
+            "request": "launch",
+            "mainClass": "com.example.generics.classes.interfaces.builtin.PredicateDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "SimpleFunction",
+            "request": "launch",
+            "mainClass": "com.example.generics.classes.interfaces.builtin.SimpleFunction",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "GenericMulti",
             "request": "launch",
             "mainClass": "com.example.generics.classes.GenericMulti",
