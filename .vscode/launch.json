@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CastDriver",
+            "request": "launch",
+            "mainClass": "com.example.generics.interfaces.custom.CastDriver",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "ImplCalc",
             "request": "launch",
             "mainClass": "com.example.generics.interfaces.custom.ImplCalc",
