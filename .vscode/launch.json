@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeserializeEmployee",
+            "request": "launch",
+            "mainClass": "com.example.serialization.DeserializeEmployee",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "SerializeEmployee",
+            "request": "launch",
+            "mainClass": "com.example.serialization.SerializeEmployee",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "EmpList",
             "request": "launch",
             "mainClass": "com.example.fileio.EmpList",
