@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.singleton.Main",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "TestSIngleton",
             "request": "launch",
             "mainClass": "com.example.jdbc.singleton.TestSIngleton",
