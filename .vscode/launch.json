@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelectToList",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.SelectToList",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.example.singleton.Main",
