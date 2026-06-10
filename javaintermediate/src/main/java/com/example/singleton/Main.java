@@ -6,6 +6,9 @@ public class Main {
         Employee e2 = Employee.getInstance();
 
         // proof of singleton
+        System.out.println(e1);
+        System.out.println(e1);
+
         System.out.println(e1 == e2);
     }
 }
