@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertData",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.exercises.InsertData",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "DeleteData",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.DeleteData",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "UpdateTable",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.UpdateTable",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "SelectData",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.SelectData",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "InsertData",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.InsertData",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "CreateTable",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.CreateTable",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "TestConnection",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.TestConnection",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "DeserializeEmployee",
             "request": "launch",
             "mainClass": "com.example.serialization.DeserializeEmployee",
