@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestSIngleton",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.singleton.TestSIngleton",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "InsertData",
             "request": "launch",
             "mainClass": "com.example.jdbc.exercises.InsertData",
