@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DeleteRecords",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.preparedstatements.DeleteRecords",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "UpdateRecords",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.preparedstatements.UpdateRecords",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "BatchInsert",
             "request": "launch",
             "mainClass": "com.example.jdbc.preparedstatements.BatchInsert",
