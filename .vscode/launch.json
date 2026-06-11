@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelectRecords",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.preparedstatements.SelectRecords",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "UpdateDate",
             "request": "launch",
             "mainClass": "com.example.jdbc.UpdateDate",
