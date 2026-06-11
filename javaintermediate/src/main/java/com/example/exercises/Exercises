@@ -1,3 +1,7 @@
-Create a table in the MySql with columns present in the "Dynamic List" sample 
+1. Create a table in the MySql with columns present in the "Dynamic List" sample 
 Insert the data from the console to the database table.
 when the view employees is selected, get the data into the arraylist and display.
+
+2. Change all the SQL statements to prepared statements
+
+3. Change all connections to Singleton
