@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.factory.Main",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "OptionalDemo",
             "request": "launch",
             "mainClass": "com.example.optionals.OptionalDemo",
