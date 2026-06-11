@@ -3,7 +3,6 @@ package com.example.jdbc.preparedstatements;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.Scanner;
 
 import com.example.jdbc.singleton.DatabaseConnection;
 
