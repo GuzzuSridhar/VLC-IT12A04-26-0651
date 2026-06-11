@@ -10,7 +10,7 @@ public class InsertData {
         try (
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/practice", "root", "pass");) {
             Statement stmt = con.createStatement();
-            String sql = "insert into emp (emp_id,emp_name) values (102,'Bill')";
+            String sql = "insert into emp (emp_id,emp_name) values (112,'Bill')";
             int rows = stmt.executeUpdate(sql);
             System.out.println(rows + " Rows Inserted");
         } catch (SQLException e) {

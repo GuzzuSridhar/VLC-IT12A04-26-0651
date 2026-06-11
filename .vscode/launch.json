@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UpdateDate",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.UpdateDate",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "AddPrimaryKey",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.AddPrimaryKey",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "AlterTable",
+            "request": "launch",
+            "mainClass": "com.example.jdbc.AlterTable",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "SelectToList",
             "request": "launch",
             "mainClass": "com.example.jdbc.SelectToList",

@@ -4,16 +4,16 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DeleteData {
+public class AddPrimaryKey {
     public static void main(String[] args) {
         try {
             Connection con = MyDatabase.getConnection();
             Statement stmt = con.createStatement();
-            String sql = "delete from emp where emp_id = 100";
-            int res = stmt.executeUpdate(sql);
-            System.out.println(res + " rows deleted");
+            String sql = "alter table emp add primary key (emp_id)";
+            stmt.execute(sql);
+            System.out.println("Table Altered");
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
     }
 }
