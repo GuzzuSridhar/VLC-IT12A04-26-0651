@@ -4,7 +4,9 @@ public class Employee {
     // Singleton class
     private static Employee instance;
 
+    @SuppressWarnings("unused")
     private int id;
+    @SuppressWarnings("unused")
     private String name;
 
     // when a class is singleton the constructor is private
