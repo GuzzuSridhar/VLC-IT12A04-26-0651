@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OptionalDemo",
+            "request": "launch",
+            "mainClass": "com.example.optionals.OptionalDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "NPDemo",
+            "request": "launch",
+            "mainClass": "com.example.optionals.NPDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "DeleteRecords",
             "request": "launch",
             "mainClass": "com.example.jdbc.preparedstatements.DeleteRecords",
