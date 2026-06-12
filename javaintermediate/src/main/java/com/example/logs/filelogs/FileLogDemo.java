@@ -5,7 +5,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
-import java.util.logging.XMLFormatter;
+// import java.util.logging.XMLFormatter;
 
 public class FileLogDemo {
     // get the logger
@@ -18,8 +18,8 @@ public class FileLogDemo {
             FileHandler fileHandler = new FileHandler();
             fileHandler = new FileHandler("mylogs.txt", true);
             // set up the formatter
-            fileHandler.setFormatter(new XMLFormatter());
-            // fileHandler.setFormatter(new SimpleFormatter());
+            // fileHandler.setFormatter(new XMLFormatter());
+            fileHandler.setFormatter(new SimpleFormatter());
 
             // logger setup
             logger.setUseParentHandlers(false);
