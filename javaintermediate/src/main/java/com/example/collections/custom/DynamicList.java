@@ -1,15 +1,40 @@
 package com.example.collections.custom;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+// import java.util.logging.XMLFormatter;
 
 public class DynamicList {
+    // get logger
+    static Logger logger = Logger.getLogger(DynamicList.class.getName());
+
     // static resources for the Application
     static Scanner scan = new Scanner(System.in);
     static ArrayList<Employee> employees = new ArrayList<>();
 
     public static void main(String[] args) {
+        // configure file handler
+        try {
+            FileHandler fileHandler = new FileHandler();
+            fileHandler = new FileHandler("empdata.log", true);
+            // set up the formatter
+            // fileHandler.setFormatter(new XMLFormatter());
+            fileHandler.setFormatter(new SimpleFormatter());
+
+            // logger setup
+            logger.setUseParentHandlers(false);
+            logger.addHandler(fileHandler);
+            logger.setLevel(Level.INFO);
+        } catch (SecurityException | IOException e) {
+            e.printStackTrace();
+        }
+
         menu();
     }
 
@@ -67,6 +92,7 @@ public class DynamicList {
             // create employee object
             emp = new Employee(id, name, dept, sal);
             employees.add(emp);
+            logger.info("Employee " + emp.getName() + " added");
 
             System.out.println("Employee Added Successfully");
 

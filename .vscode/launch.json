@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileLogDemo",
+            "request": "launch",
+            "mainClass": "com.example.logs.filelogs.FileLogDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "AppWithLogs",
             "request": "launch",
             "mainClass": "com.example.logs.consolelogs.AppWithLogs",

@@ -1,0 +1,22 @@
+Jun 12, 2026 8:31:18 AM com.example.logs.filelogs.FileLogDemo main
+INFO: Message logged in the file
+Jun 12, 2026 8:32:02 AM com.example.logs.filelogs.FileLogDemo main
+INFO: Message logged in the file
+Jun 12, 2026 8:32:45 AM com.example.logs.filelogs.FileLogDemo main
+INFO: Message logged in the file
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-06-12T03:07:09.183993300Z</date>
+  <millis>1781233629183</millis>
+  <nanos>993300</nanos>
+  <sequence>0</sequence>
+  <logger>com.example.logs.filelogs.FileLogDemo</logger>
+  <level>INFO</level>
+  <class>com.example.logs.filelogs.FileLogDemo</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Message logged in the file</message>
+</record>
+</log>
