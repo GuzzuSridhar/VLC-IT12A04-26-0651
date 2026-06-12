@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppWithLogs",
+            "request": "launch",
+            "mainClass": "com.example.logs.consolelogs.AppWithLogs",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "LevelsDemo",
+            "request": "launch",
+            "mainClass": "com.example.logs.consolelogs.LevelsDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
+            "name": "ConsoleLogsDemo",
+            "request": "launch",
+            "mainClass": "com.example.logs.consolelogs.ConsoleLogsDemo",
+            "projectName": "javaintermediate"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.example.factory.Main",
